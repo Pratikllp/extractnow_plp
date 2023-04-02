@@ -1,6 +1,6 @@
 import logging
 
-from .utubebot import UtubeBot
+from .forward-bot import Forward-Bot
 from .config import Config
 
 
@@ -10,4 +10,4 @@ if __name__ == "__main__":
         logging.INFO if Config.DEBUG else logging.WARNING
     )
 
-    UtubeBot().run()
+    Forward-Bot().run()
